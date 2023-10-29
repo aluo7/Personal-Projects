@@ -1,6 +1,6 @@
 ## Stock Price Prediction using Recurrent Neural Networks (RNN)
 
-Stock price prediction is a challenging yet captivating task, given the complexities of financial markets. This project stemmed from a curiosity about R
+Predicting stock prices has always been a popular and challenging task. The dynamics of the stock market are influenced by a myriad of factors, making the prediction task non-trivial. This project aims to predict the next day's stock price of a given company using RNNs.
 
 ## Table of Contents
 
