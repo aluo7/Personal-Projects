@@ -1,6 +1,6 @@
 # LearnedSHAP: a brief case study on self-proposed LearnedSHAP vs. GradientSHAP.
 
-Performed as evaluation to join UW Computer Vision Lab under Prof. Vikas Singh. See [here](https://docs.google.com/presentation/d/1Mb2gKSIBKJRPd86N4UGMgf7CR3XMUyZR-rViMY2amHU/edit?usp=sharing) for a brief slideshow detailing findings. Otherwise, continue reading.
+Performed as evaluation to join UW Computer Vision Lab under Prof. Vikas Singh. See [here](https://docs.google.com/presentation/d/1Mb2gKSIBKJRPd86N4UGMgf7CR3XMUyZR-rViMY2amHU/edit?usp=sharing) for a brief slideshow detailing findings, with more images. Otherwise, continue reading.
 
 ## Setup
 
@@ -66,3 +66,25 @@ Goal: perform a case-study on Shapley Value collection methodologies on ViTs and
 
 1. ViTs global contextual perspective is clearly more prominent in LearnedSHAP compared to GradientSHAP, due to the pairwise relationships captured by LearnedSHAP
 2. While GradientSHAP is able to effectively highlight ROIs, LearnedSHAP includes an additional layer of global context for a similar reason as (1), with pairwise relationships reflecting well-known weaknesses in models such as ResNets by highlighting extraneous regions of movement (i.e. lighting changes), proving a strong correlation between the models output and visual noise.
+
+## Example SHAP Overlays (see [slides](https://docs.google.com/presentation/d/1Mb2gKSIBKJRPd86N4UGMgf7CR3XMUyZR-rViMY2amHU/edit?usp=sharing) or notebooks for detailed explanations, and a complete collection of images)
+
+### GradientSHAP (ViT) vs Attention Map
+
+**GradientSHAP:**
+
+![alt text](shap_overlays/gradientSHAP_ViT.png)
+
+**Attention:**
+
+![alt text](shap_overlays/attention_map.png)
+
+### LearnedSHAP
+
+**ViT:**
+
+![alt text](shap_overlays/learnedSHAP_ViT.png)
+
+**3D-ResNet:**
+
+![alt text](shap_overlays/learnedSHAP_3d-resnet.png)
