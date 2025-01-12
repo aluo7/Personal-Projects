@@ -1,4 +1,4 @@
-# harsanyi_shap_utils.py
+# learned_shap_utils.py
 
 import torch
 import torch.nn as nn
