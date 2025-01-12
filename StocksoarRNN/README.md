@@ -30,7 +30,7 @@ Recurrent Neural Networks (RNNs) are a unique subset of neural networks tailored
 
 The model was trained on historical stock data from '2020-01-01' to '2023-07-30'. Using this model, we predicted the next day's closing price for a specific date.
 
-**Model Accuracy**: Predicting stock prices is notoriously difficult. Financial professionals spend significant resources on this challenge, and even then, no model is foolproof. For demonstration purposes, we predicted the next day's closing price for Apple Inc. (AAPL). The model achieved a MAE of about $3-$8, which is underachieving, but overall a good result for a simple demonstration.
+**Model Accuracy**: Predicting stock prices is notoriously difficult. Financial professionals spend significant resources on this challenge, and even then, no model is foolproof. For demonstration purposes, we predicted the next day's closing price for Apple Inc. (AAPL). The model achieved a MAE of about 10%, which is underachieving, but overall a good result for a simple demonstration.
 
 ## Considerations and Limitations
 
